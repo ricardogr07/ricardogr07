@@ -6,7 +6,11 @@
 
 </div>
 
+<div align="center">
+
 M.Sc. Data Science. 7+ years enterprise engineering. Open to select freelance projects in Python pipelines, RAG, and ML tooling.
+
+</div>
 
 ---
 
