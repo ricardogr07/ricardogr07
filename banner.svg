@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="160" viewBox="0 0 860 160">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="430" cy="80" r="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06b6d4" stop-opacity="0.09"/>
+      <stop offset="0.7" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="860" height="160" fill="#0a0a0a"/>
+  <rect width="860" height="160" fill="url(#glow)"/>
+  <rect width="860" height="160" fill="url(#grid)"/>
+  <rect x="0" y="148" width="860" height="1" fill="#06b6d4" opacity="0.3"/>
+
+  <text
+    x="430" y="58"
+    font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
+    font-size="38"
+    font-weight="700"
+    fill="#f5f5f5"
+    text-anchor="middle"
+    letter-spacing="-0.5"
+  >Ricardo García Ramírez</text>
+
+  <text
+    x="430" y="100"
+    font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
+    font-size="20"
+    font-weight="400"
+    fill="#06b6d4"
+    text-anchor="middle"
+    letter-spacing="0.2"
+  >Full-Stack Developer &amp; Data Scientist</text>
+
+  <text
+    x="430" y="132"
+    font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
+    font-size="13"
+    font-weight="400"
+    fill="#737373"
+    text-anchor="middle"
+    letter-spacing="2"
+  >AI/ML · DATA SCIENCE · CLOUD · FULL-STACK</text>
+</svg>

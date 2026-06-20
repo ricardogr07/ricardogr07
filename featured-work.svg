@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" viewBox="0 0 860 280"
+  font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+
+  <rect width="860" height="280" fill="#0a0a0a"/>
+
+  <!-- Card 1: rusty-rag-chunker (center x=211) -->
+  <rect x="0" y="0" width="422" height="132" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="0" y="0" width="422" height="3" fill="#06b6d4"/>
+  <text x="211" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#06b6d4">rusty-rag-chunker</text>
+  <text text-anchor="middle" font-size="12" fill="#a3a3a3">
+    <tspan x="211" y="50">Token-aware RAG chunking: Rust (PyO3) + Python</tspan>
+    <tspan x="211" dy="17">hallucination guard, two-layer validation</tspan>
+  </text>
+  <line x1="18" y1="92" x2="404" y2="92" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="211" y="113" text-anchor="middle" font-size="11" fill="#06b6d4">0 over-limit chunks · vs 13,100 char-count baseline</text>
+
+  <!-- Card 2: mx-jobs-insights (center x=649) -->
+  <rect x="438" y="0" width="422" height="132" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="438" y="0" width="422" height="3" fill="#06b6d4"/>
+  <text x="649" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#06b6d4">mx-jobs-insights</text>
+  <text text-anchor="middle" font-size="12" fill="#a3a3a3">
+    <tspan x="649" y="50">Live bilingual analytics site; DuckDB → Parquet</tspan>
+    <tspan x="649" dy="17">→ MkDocs reporting, runs on GitHub Actions</tspan>
+  </text>
+  <line x1="456" y1="92" x2="842" y2="92" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="649" y="113" text-anchor="middle" font-size="11" fill="#06b6d4">9,661 snapshots processed · 14/14 scheduled runs</text>
+
+  <!-- Card 3: reposage (center x=211) -->
+  <rect x="0" y="148" width="422" height="132" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="0" y="148" width="422" height="3" fill="#06b6d4"/>
+  <text x="211" y="174" text-anchor="middle" font-size="14" font-weight="700" fill="#06b6d4">reposage</text>
+  <text text-anchor="middle" font-size="12" fill="#a3a3a3">
+    <tspan x="211" y="198">AI-assisted repo audit: PyPI + GitHub Action</tspan>
+    <tspan x="211" dy="17">+ MCP server; zero runtime dependencies</tspan>
+  </text>
+  <line x1="18" y1="240" x2="404" y2="240" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="211" y="261" text-anchor="middle" font-size="11" fill="#06b6d4">100/100 on its own audit · 29 languages detected</text>
+
+  <!-- Card 4: clipsmith (center x=649) -->
+  <rect x="438" y="148" width="422" height="132" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="438" y="148" width="422" height="3" fill="#06b6d4"/>
+  <text x="649" y="174" text-anchor="middle" font-size="14" font-weight="700" fill="#06b6d4">clipsmith</text>
+  <text text-anchor="middle" font-size="12" fill="#a3a3a3">
+    <tspan x="649" y="198">AI Twitch clip pipeline: local Whisper + LLM</tspan>
+    <tspan x="649" dy="17">ranking; FastAPI + Next.js + Azure ACI</tspan>
+  </text>
+  <line x1="456" y1="240" x2="842" y2="240" stroke="#1e1e1e" stroke-width="1"/>
+  <text x="649" y="261" text-anchor="middle" font-size="11" fill="#06b6d4">FastAPI · Next.js · Azure ACI · published to PyPI</text>
+
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300"
+  font-family="ui-sans-serif, system-ui, -apple-system, sans-serif">
+
+  <rect width="860" height="300" fill="#0a0a0a"/>
+
+  <!-- Card 1: AI / ML -->
+  <rect x="0" y="0" width="422" height="142" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="0" y="0" width="422" height="3" fill="#06b6d4"/>
+  <text x="18" y="26" font-size="10" font-weight="600" fill="#06b6d4" letter-spacing="2.5">AI / ML</text>
+  <text font-size="12" fill="#737373">
+    <tspan x="18" y="50">RAG pipelines, LLM tooling, vector search</tspan>
+    <tspan x="18" dy="17">Bayesian optimization, MCP server integrations</tspan>
+    <tspan x="18" dy="17">OpenAI · Anthropic · Ollama · JAX · Qdrant</tspan>
+  </text>
+  <line x1="18" y1="128" x2="52" y2="128" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Card 2: Data Science -->
+  <rect x="438" y="0" width="422" height="142" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="438" y="0" width="422" height="3" fill="#06b6d4"/>
+  <text x="456" y="26" font-size="10" font-weight="600" fill="#06b6d4" letter-spacing="2.5">DATA SCIENCE</text>
+  <text font-size="12" fill="#737373">
+    <tspan x="456" y="50">Reproducible ML experiments, ETL pipelines</tspan>
+    <tspan x="456" dy="17">DuckDB, Parquet, Pandas, scientific Python</tspan>
+    <tspan x="456" dy="17">statistical analysis, bilingual reporting</tspan>
+  </text>
+  <line x1="456" y1="128" x2="490" y2="128" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Card 3: Cloud -->
+  <rect x="0" y="158" width="422" height="142" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="0" y="158" width="422" height="3" fill="#06b6d4"/>
+  <text x="18" y="184" font-size="10" font-weight="600" fill="#06b6d4" letter-spacing="2.5">CLOUD</text>
+  <text font-size="12" fill="#737373">
+    <tspan x="18" y="208">Azure Functions, Cloud Run, Docker, CI/CD</tspan>
+    <tspan x="18" dy="17">GitHub Actions automation, serverless deploys</tspan>
+    <tspan x="18" dy="17">PyPI publishing with OIDC trusted publisher</tspan>
+  </text>
+  <line x1="18" y1="286" x2="52" y2="286" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Card 4: Full-Stack -->
+  <rect x="438" y="158" width="422" height="142" fill="#111111" stroke="#1e1e1e" stroke-width="1"/>
+  <rect x="438" y="158" width="422" height="3" fill="#06b6d4"/>
+  <text x="456" y="184" font-size="10" font-weight="600" fill="#06b6d4" letter-spacing="2.5">FULL-STACK</text>
+  <text font-size="12" fill="#737373">
+    <tspan x="456" y="208">FastAPI + Next.js / React, typed TypeScript</tspan>
+    <tspan x="456" dy="17">tested and deployed apps, REST APIs</tspan>
+    <tspan x="456" dy="17">sql.js, Tailwind v4, Vitest, Cypress E2E</tspan>
+  </text>
+  <line x1="456" y1="286" x2="490" y2="286" stroke="#06b6d4" stroke-opacity="0.3" stroke-width="1"/>
+
+</svg>
